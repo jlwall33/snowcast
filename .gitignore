@@ -1,0 +1,20 @@
+# Python env/build
+.venv/
+__pycache__/
+*.pyc
+
+# data / outputs
+data/
+*.npz
+out_unet/
+out_*.png
+*.png
+uvicorn.log
+uvicorn.pid
+
+# models (keep the folder but ignore large binaries)
+models/*.pth
+
+# IDE/editor
+.vscode/
+*.swp
