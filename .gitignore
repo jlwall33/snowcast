@@ -18,3 +18,13 @@ models/*.pth
 # IDE/editor
 .vscode/
 *.swp
+.venv/
+uvicorn.log
+uvicorn.pid
+out/
+out_*
+*.png
+*.pth
+data/npz_samples/
+*.npz
+__pycache__/
